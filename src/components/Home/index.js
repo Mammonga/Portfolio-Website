@@ -9,7 +9,7 @@ import { useTranslation } from 'react-i18next'
 import LanguageSwitchButton from '../LanguageSwitchButton'
 
 const Home = () => {
-  const [t, i18n] = useTranslation('global')
+  const [t] = useTranslation('global')
 
   const [letterClass, setLetterClass] = useState('text-animate')
   const nameArray = ['l', 'v', 'i', 's']
