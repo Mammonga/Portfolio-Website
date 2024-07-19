@@ -1,0 +1,73 @@
+{
+  "language": "Select a language",
+  "home": {
+    "hi": "Hi,",
+    "ich": "I am",
+    "frontend_developer": "Frontend Developer",
+    "contact_me": "Contact Me"
+  },
+  "about": {
+    "title": "About Me",
+    "paragraph1": "I am a very ambitious frontend developer looking for a role in an established IT company with the opportunity to work with the latest technologies on challenging and diverse projects.",
+    "paragraph2": "I am quite confident, naturally curious, and constantly working on improving my skills one design problem at a time.",
+    "paragraph3": "If I had to describe myself in one sentence, it would be: a family person, an otaku, gaming enthusiast, and tech-obsessed!!!"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "view_button": "VIEW"
+  },
+  "contact": {
+    "title1": "Contact",
+    "title2": "Me",
+    "description": "I am interested in freelance opportunities – especially ambitious or large projects. However, if you have other requests or questions, don't hesitate to contact me using the form below.",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "SEND",
+    "address": {
+      "line1": "Elvis Jelecevic",
+      "line2": "Austria,",
+      "line3": "Klagenfurt",
+      "email": "jelecevic.elvis@gmail.com",
+      "popup": "Elvis lives here, come over for a tea"
+    }
+  },
+  "cv": {
+    "title": "Curriculum Vitae",
+    "personal_info": "Personal Information",
+    "address": "Address",
+    "email": "Email",
+    "birthdate": "Birthdate",
+    "nationality": "Nationality",
+    "country": "Slovenia",
+    "marital_status": "Marital Status",
+    "marital_status_data": "Never Married",
+    "phone": "Phone",
+    "birthplace": "Birthplace",
+    "skills": "Skills",
+    "languages": "Languages",
+    "slovenian": "Slovenian",
+    "serbo-kroatian": "Serbo-Kroatian",
+    "english": "English",
+    "german": "German",
+    "education": "Education",
+    "experience": "Work Experience",
+    "further_education": "Further Education",
+    "office": "MS-Office",
+    "blender": "Blender",
+    "javascript": "JavaScript",
+    "video_editing": "Video Editing",
+    "photoshop": "Adobe Photoshop",
+    "c_sharp": "C# Knowledge",
+    "native_language": "Native Language",
+    "c2": "C2",
+    "project1": "Higher Technical Institute Wolfsberg - Business Informatics",
+    "project2": "Middle School Völkermarkt - Basic Education",
+    "job1": "Commissioning - Coop Schafisheim, Switzerland - Forwarding deliveries",
+    "job2": "Quality Management Employee - Geislinger GmbH - Checking dimensions of products",
+    "job3": "Electrician - Elektro Crivelli AG - Laying cable protection pipes and cables at a school project",
+    "training1": "Job Workshop - Wifi, Klagenfurt",
+    "training2": "Training provides opportunities - Wifi / BFI, Klagenfurt - Starting an apprenticeship as a media specialist"
+  }
+}

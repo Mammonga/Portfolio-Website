@@ -1,0 +1,73 @@
+{
+  "language": "Wähle eine Sprache aus",
+  "home": {
+    "hi": "Hallo,",
+    "ich": "Ich bin",
+    "frontend_developer": "Frontend-Entwickler",
+    "contact_me": "Kontaktiere mich"
+  },
+  "about": {
+    "title": "Über mich",
+    "paragraph1": "Ich bin ein sehr ambitionierter Frontend-Entwickler auf der Suche nach einer Rolle in einem etablierten IT-Unternehmen mit der Möglichkeit, mit den neuesten Technologien an herausfordernden und vielfältigen Projekten zu arbeiten.",
+    "paragraph2": "Ich bin ziemlich selbstbewusst, von Natur aus neugierig und arbeite ständig daran, meine Fähigkeiten anhand eines Designproblems nach dem anderen zu verbessern.",
+    "paragraph3": "Wenn ich mich in einem Satz beschreiben müsste, wäre das: ein Familienmensch, ein Otaku, Gaming-Enthusiast und technikbesessen!!!"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "view_button": "ANSICHT"
+  },
+  "contact": {
+    "title1": "Kontaktiere",
+    "title2": "Mich",
+    "description": "Ich bin an freiberuflichen Möglichkeiten interessiert – besonders bei ambitionierten oder großen Projekten. Wenn Sie jedoch andere Anfragen oder Fragen haben, zögern Sie nicht, mich über das untenstehende Formular zu kontaktieren.",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Betreff",
+    "message": "Nachricht",
+    "send": "SENDEN",
+    "address": {
+      "line1": "Elvis Jelecevic",
+      "line2": "Österreich,",
+      "line3": "Klagenfurt",
+      "email": "jelecevic.elvis@gmail.com",
+      "popup": "Elvis lebt hier, kommt vorbei auf einen Tee"
+    }
+  },
+  "cv": {
+    "title": "Lebenslauf",
+    "personal_info": "Persönliche Daten",
+    "address": "Anschrift",
+    "email": "E-Mail",
+    "birthdate": "Geburtsdatum",
+    "nationality": "Staatsbürgerschaft",
+    "country": "Slowenien",
+    "marital_status": "Familienstand",
+    "marital_status_data": "Ledig",
+    "phone": "Telefon",
+    "birthplace": "Geburtsort",
+    "skills": "Kenntnisse",
+    "languages": "Sprachen",
+    "slovenian": "Slovenisch",
+    "serbo-kroatian": "Serbo-Kroatisch",
+    "english": "Englisch",
+    "german": "Deutsch",
+    "education": "Ausbildung",
+    "experience": "Berufserfahrung",
+    "further_education": "Weiterbildung",
+    "office": "MS-Office",
+    "blender": "Blender",
+    "javascript": "JavaScript",
+    "video_editing": "Videobearbeitung",
+    "photoshop": "Adobe Photoshop",
+    "c_sharp": "C#-Kenntnisse",
+    "native_language": "Muttersprache",
+    "c2": "C2",
+    "project1": "Höhere Technische Lehranstalt Wolfsberg - Betriebsinformatik",
+    "project2": "Mittelschule Völkermarkt - Grundbildung",
+    "job1": "Kommissionierung - Coop Schafisheim, Schweiz - Weiterleitung von Liefergütern",
+    "job2": "Mitarbeiter Qualitätsmanagement - Geislinger GmbH - Kontrolle der Dimensionen bei Produkten",
+    "job3": "Elektriker - Elektro Crivelli AG - Verlegung von Kabelschutzrohren und Kabeln an Schulobjekt",
+    "training1": "Job-Werkstatt - Wifi, Klagenfurt",
+    "training2": "Ausbildung bietet Chancen - Wifi / BFI, Klagenfurt - Beginn der Lehre als Medienfachmann"
+  }
+}
