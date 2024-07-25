@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next'
 const Lebenslauf = () => {
   const { t } = useTranslation('global')
   const [letterClass, setLetterClass] = useState('text-animate')
-  const titleArray = t('cv.title').split('')
+  const titleArray = t('cv.title').split(' ')
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -19,11 +19,27 @@ const Lebenslauf = () => {
   return (
     <div className="lebenslauf-page">
       <h1 className="page-title">
-        <AnimatedLetters
-          letterClass={letterClass}
-          strArray={titleArray}
-          idx={15}
-        />
+        {titleArray.length > 1 ? (
+          <>
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={titleArray[0].split('')}
+              idx={15}
+            />
+            <br />
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={titleArray.slice(1).join(' ').split('')}
+              idx={15 + titleArray[0].length}
+            />
+          </>
+        ) : (
+          <AnimatedLetters
+            letterClass={letterClass}
+            strArray={titleArray[0].split('')}
+            idx={15}
+          />
+        )}
       </h1>
       <div className="container">
         <div className="left-column">

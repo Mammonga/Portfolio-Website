@@ -84,6 +84,8 @@
     font-weight: 400;
     color: #fb7a02;
     position: relative;
+    white-space: nowrap;
+    display: inline-block;
 
     &::before {
       content: '<h1>';
@@ -91,7 +93,7 @@
       color: #fb7a02;
       font-size: 1.6rem; /* Adjusted font size */
       position: absolute;
-      top: -10px;
+      top: -20px;
       left: 0px;
       opacity: 0.6;
     }
@@ -100,13 +102,11 @@
       content: '</h1>';
       font-family: 'La Belle Aurore';
       color: #fb7a02;
-      font-size: 1.6rem; /* Adjusted font size */
+      font-size: 1.2rem; /* Adjusted font size */
       position: absolute;
       top: 50%;
-      left: 100%;
-      margin-left: -850px;
-      transform: translateX(10px);
-      animation: fadeIn 1s 1.7s backwards;
+      transform: translateY(-50%);
+      right: -50px;
       opacity: 0.6;
     }
   }
