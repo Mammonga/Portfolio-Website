@@ -1,6 +1,6 @@
 .nav-bar {
   background: #181818;
-  width: 80px;
+  width: 85px;
   height: 100%;
   position: fixed;
   top: 0;
@@ -34,73 +34,65 @@
     a {
       font-size: 22px;
       color: #4d4d4e;
-      display: block;
-      line-height: 51px;
-      height: 51px;
-      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       text-decoration: none;
+      margin: 20px 0;
+      transition: color 0.3s ease-out;
 
       i {
         transition: all 0.3s ease-out;
       }
 
-      &:hover {
+      &:hover,
+      &.active {
         color: #fb7a02;
 
         svg {
-          opacity: 0;
-        }
-        &:after {
-          opacity: 1;
+          color: #fb7a02;
         }
       }
+
       &:after {
-        content: '';
-        font-size: 9px;
-        letter-spacing: 2px;
-        position: absolute;
-        bottom: 0;
+        font-size: 12px;
+        letter-spacing: 1px;
         display: block;
         width: 100%;
         text-align: center;
-        opacity: 0;
-        transition: all 0.3s ease-out;
+        margin-top: 5px;
+        font-weight: bold;
       }
     }
-    a.home-link {
-      &:after {
-        content: 'HOME';
-        color: #fb7a02;
-      }
+    a.home-link:after {
+      content: 'HOME';
+      color: #fff;
+      font-weight: bold;
     }
-    a.about-link {
-      &:after {
-        content: 'ÜBER';
-        color: #fb7a02;
-      }
+    a.about-link:after {
+      content: 'ABOUT';
+      color: #fff;
+      font-weight: bold;
     }
-    a.contact-link {
-      &:after {
-        content: 'KONTAKT';
-        color: fb7a02;
-      }
+    a.contact-link:after {
+      content: 'CONTACT';
+      color: #fff;
+      font-weight: bold;
     }
-    a.portfolio-link {
-      &:after {
-        content: 'PORTFOLIO';
-        color: fb7a02;
-      }
+    a.portfolio-link:after {
+      content: 'PORTFOLIO';
+      color: #fff;
+      font-weight: bold;
     }
-    a.lebenslauf-link {
-      &:after {
-        content: 'LEBENSLAUF';
-        color: fb7a02;
-      }
+    a.lebenslauf-link:after {
+      content: 'CV';
+      color: #fff;
+      font-weight: bold;
     }
-    a.active {
-      svg {
-        color: #fb7a02;
-      }
+    a.active:after,
+    a:hover:after {
+      color: #fb7a02;
+      font-weight: bold;
     }
   }
   .hamburger-icon,

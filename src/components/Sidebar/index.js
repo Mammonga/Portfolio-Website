@@ -30,7 +30,7 @@ const Sidebar = () => {
           className="home-link"
           to="/"
         >
-          <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faHome} color="#fff" />
         </NavLink>
 
         <NavLink
@@ -39,7 +39,7 @@ const Sidebar = () => {
           className="about-link"
           to="/about"
         >
-          <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faUser} color="#fff" />
         </NavLink>
 
         <NavLink
@@ -48,7 +48,7 @@ const Sidebar = () => {
           className="portfolio-link"
           to="/portfolio"
         >
-          <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faSuitcase} color="#fff" />
         </NavLink>
 
         <NavLink
@@ -57,16 +57,16 @@ const Sidebar = () => {
           className="contact-link"
           to="/contact"
         >
-          <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faEnvelope} color="#fff" />
         </NavLink>
 
         <NavLink
           exact="true"
           activeclassname="active"
-          className={`lebenslauf-link`}
+          className="lebenslauf-link"
           to="/lebenslauf"
         >
-          <FontAwesomeIcon icon={faList} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faList} color="#fff" />
         </NavLink>
 
         <FontAwesomeIcon
