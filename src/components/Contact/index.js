@@ -29,12 +29,12 @@ const Contact = () => {
         'W_R-6FlZBUN4f4AtP'
       )
       .then(() => {
-        alert(t('contact.success_message'))
-        window.location.reload(false)
+        alert(t('Sent successfully'))
+        refForm.current.reset()
       })
       .catch((error) => {
         console.error('Send email error:', error)
-        alert(t('contact.error_message'))
+        alert(t('Unexpected Error'))
       })
   }
 
