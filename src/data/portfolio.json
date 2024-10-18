@@ -1,10 +1,10 @@
 {
-    "portfolio": [
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "MangaTracker",
-            "description": "Express,Js,EJS",
-            "url": "https://github.com/Mammonga/MangaTracker"
-        }
-    ]
+  "portfolio": [
+    {
+      "cover": "/portfolio/1/one.png",
+      "title": "Pizza-menu",
+      "description": "Js,React",
+      "url": "/pizza-menu"
+    }
+  ]
 }
